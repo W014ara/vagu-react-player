@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { VaguReactPlayer } from '@lib/index';
 
-function App() {
+const App: FC = () => {
   return (
     <div className="App">
       <VaguReactPlayer />
     </div>
   );
-}
+};
 
 export default App;

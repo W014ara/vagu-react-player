@@ -1,0 +1,274 @@
+@import 'fonts.scss';
+@import 'colors.scss';
+
+$font-color: $magnet;
+
+/* This file is used to install player fonts. Can be used as mixins or as additional classes  */
+
+// =============== Regular ===============
+
+@mixin vagu-player-typography-regular-12px() {
+  font-family: 'pt-regular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: $font-color;
+}
+
+.vagu-player-typography-regular-12px {
+  @include vagu-player-typography-regular-12px();
+}
+
+@mixin vagu-player-typography-regular-14px() {
+  font-family: 'pt-regular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $font-color;
+}
+
+.vagu-player-typography-regular-14px {
+  @include vagu-player-typography-regular-14px();
+}
+
+@mixin vagu-player-typography-regular-18px() {
+  font-family: 'pt-regular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: $font-color;
+}
+
+.vagu-player-typography-regular-18px {
+  @include vagu-player-typography-regular-18px();
+}
+
+@mixin vagu-player-typography-regular-24px() {
+  font-family: 'pt-regular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  color: $font-color;
+}
+
+.vagu-player-typography-regular-24px {
+  @include vagu-player-typography-regular-24px();
+}
+
+@mixin vagu-player-typography-regular-32px() {
+  font-family: 'pt-regular', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 41px;
+  color: $font-color;
+}
+
+.vagu-player-typography-regular-32px {
+  @include vagu-player-typography-regular-32px();
+}
+
+// =============== Regular Italic ===============
+
+@mixin vagu-player-typography-italic-12px() {
+  font-family: 'pt-regular-italic', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: $font-color;
+}
+
+.vagu-player-typography-italic-12px {
+  @include vagu-player-typography-italic-12px();
+}
+
+@mixin vagu-player-typography-italic-14px() {
+  font-family: 'pt-regular-italic', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: $font-color;
+}
+
+.vagu-player-typography-italic-14px {
+  @include vagu-player-typography-italic-14px();
+}
+
+@mixin vagu-player-typography-italic-18px() {
+  font-family: 'pt-regular-italic', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: $font-color;
+}
+
+.vagu-player-typography-italic-18px {
+  @include vagu-player-typography-italic-18px();
+}
+
+@mixin vagu-player-typography-italic-24px() {
+  font-family: 'pt-regular-italic', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  color: $font-color;
+}
+
+.vagu-player-typography-italic-24px {
+  @include vagu-player-typography-italic-24px();
+}
+
+@mixin vagu-player-typography-italic-32px() {
+  font-family: 'pt-regular-italic', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 41px;
+  color: $font-color;
+}
+
+.vagu-player-typography-italic-32px {
+  @include vagu-player-typography-italic-32px();
+}
+
+// =============== Bold ===============
+
+@mixin vagu-player-typography-bold-12px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-12px {
+  @include vagu-player-typography-bold-12px();
+}
+
+@mixin vagu-player-typography-bold-14px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-14px {
+  @include vagu-player-typography-bold-14px();
+}
+
+@mixin vagu-player-typography-bold-18px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-18px {
+  @include vagu-player-typography-bold-18px();
+}
+
+@mixin vagu-player-typography-bold-24px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-24px {
+  @include vagu-player-typography-bold-24px();
+}
+
+@mixin vagu-player-typography-bold-32px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-32px {
+  @include vagu-player-typography-bold-32px();
+}
+
+// =============== Bold Italic ===============
+
+@mixin vagu-player-typography-bold-italic-12px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-italic-12px {
+  @include vagu-player-typography-bold-italic-12px();
+}
+
+@mixin vagu-player-typography-bold-italic-14px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-italic-14px {
+  @include vagu-player-typography-bold-italic-14px();
+}
+
+@mixin vagu-player-typography-bold-italic-18px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-italic-18px {
+  @include vagu-player-typography-bold-italic-18px();
+}
+
+@mixin vagu-player-typography-bold-italic-24px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-italic-24px {
+  @include vagu-player-typography-bold-italic-24px();
+}
+
+@mixin vagu-player-typography-bold-italic-32px() {
+  font-family: 'pt-bold', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  color: $font-color;
+}
+
+.vagu-player-typography-bold-italic-32px {
+  @include vagu-player-typography-bold-italic-32px();
+}
