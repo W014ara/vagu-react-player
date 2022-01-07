@@ -157,8 +157,12 @@ class Builder {
       });
 
     Promise.all([copyPromise]).then(() => {
+      const execOutDir = outputPath.split('./');
+
       exec(
-        `NODE_ENV=production babel ${outputPath} --out-dir dist --extensions .ts,.tsx --copy-files`,
+        `NODE_ENV=production babel ${outputPath} --out-dir ${
+          execOutDir[execOutDir.length]
+        } --extensions .ts,.tsx --copy-files`,
       );
       this.clearTimers();
     });
