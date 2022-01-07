@@ -161,7 +161,7 @@ class Builder {
 
       exec(
         `NODE_ENV=production babel ${outputPath} --out-dir ${
-          execOutDir[execOutDir.length]
+          execOutDir[execOutDir.length - 1]
         } --extensions .ts,.tsx --copy-files`,
       );
       this.clearTimers();
