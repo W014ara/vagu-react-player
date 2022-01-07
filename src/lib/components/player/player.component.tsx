@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 const VaguReactPlayer: FC = () => {
-  return <div>Hello world</div>;
+  return <div />;
 };
 
 VaguReactPlayer.displayName = 'VaguReactPlayer';

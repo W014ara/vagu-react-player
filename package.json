@@ -67,8 +67,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "build-lib": "NODE_ENV=production babel src/lib --out-dir dist --extensions .ts,.tsx --copy-files",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "build-lib": "node scripts/build-lib.js"
   },
   "eslintConfig": {
     "extends": [
@@ -92,6 +92,8 @@
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
     "@babel/preset-typescript": "^7.16.7",
+    "glob": "^7.2.0",
+    "ncp": "^2.0.0",
     "prettier": "^2.5.1"
   },
   "peerDependencies": {
